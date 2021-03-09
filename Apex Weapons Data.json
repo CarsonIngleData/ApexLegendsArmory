@@ -1,0 +1,2039 @@
+[
+  {
+    "name": "Flatline",
+    "damage": 19,
+    "headshot_damage": 38,
+    "legshot_damage": 14,
+    "rate_of_fire": 600,
+    "ammo_capacity": 20,
+    "tactical_reload": 2.4,
+    "empty_reload": 3.1,
+    "ammo_type": "heavy",
+    "projectile_speed": 650,
+    "draw_time": 0.6,
+    "holster_time": 0.55,
+    "available_attachments": {
+      "magazine": [
+        "extended_heavy_mag"
+      ],
+      "optics": [
+        "2x_hcog_bruiser",
+        "1x_hcog_classic",
+        "1x_holo",
+        "1x-2x_variable_holo",
+        "2x-4x_variable_aog",
+        "3x_hcog_ranger"
+      ],
+      "stock": [
+        "standard_stock"
+      ],
+      "hop_up": [
+        "anvil_receiver"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_heavy_mag": {
+        "rare": {
+          "ammo_increase": "40%"
+        },
+        "epic": {
+          "ammo_increase": "50%"
+        }
+      },
+      "anvil_receiver": {
+        "legendary": {
+          "damage_modifier": "126.3%"
+        }
+      }
+    },
+    "fire_modes": {
+      "single": true,
+      "auto": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 50,
+          "y": 115
+        }
+      ],
+      "follow": [
+        {
+          "x": -7,
+          "y": -16
+        },
+        {
+          "x": 4,
+          "y": -4
+        },
+        {
+          "x": -7,
+          "y": -16
+        },
+        {
+          "x": -4,
+          "y": -4
+        },
+        {
+          "x": -1,
+          "y": -10
+        },
+        {
+          "x": 1,
+          "y": -8
+        },
+        {
+          "x": 3,
+          "y": -3
+        },
+        {
+          "x": 6,
+          "y": -4
+        },
+        {
+          "x": 10,
+          "y": 6
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": -1,
+          "y": 3
+        },
+        {
+          "x": -2,
+          "y": -2
+        },
+        {
+          "x": -2,
+          "y": -4
+        },
+        {
+          "x": -15,
+          "y": -3
+        },
+        {
+          "x": -4,
+          "y": -3
+        },
+        {
+          "x": -2,
+          "y": -8
+        },
+        {
+          "x": -5,
+          "y": -14
+        },
+        {
+          "x": -5,
+          "y": -4
+        }
+      ]
+    },
+    "damage_per_second": 190,
+    "average_dps": 190,
+    "headshot_dps": 380,
+    "legshot_dps": 140,
+    "damage_per_magazine": 380
+  },
+  {
+    "name": "Hemlok",
+    "damage": 18,
+    "headshot_damage": 36,
+    "legshot_damage": 13.5,
+    "rate_of_fire": 490,
+    "ammo_capacity": 18,
+    "tactical_reload": 2.4,
+    "empty_reload": 2.85,
+    "ammo_type": "heavy",
+    "projectile_speed": 688,
+    "draw_time": 0.6,
+    "holster_time": 0.55,
+    "available_attachments": {
+      "barrel": [
+        "barrel_stabilizer",
+        "flash_hider"
+      ],
+      "magazine": [
+        "extended_heavy_mag"
+      ],
+      "optics": [
+        "2x_hcog_bruiser",
+        "1x_hcog_classic",
+        "1x_holo",
+        "1x-2x_variable_holo",
+        "2x-4x_variable_aog",
+        "3x_hcog_ranger"
+      ],
+      "stock": [
+        "standard_stock"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_heavy_mag": {
+        "basic": {
+          "ammo_increase": "33%"
+        },
+        "epic": {
+          "ammo_increase": "66%"
+        }
+      }
+    },
+    "fire_modes": {
+      "single": true,
+      "burst": 3
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 50,
+          "y": 110
+        },
+        {
+          "x": 47,
+          "y": 93
+        },
+        {
+          "x": 46,
+          "y": 74
+        }
+      ],
+      "follow": [
+        {
+          "x": -2,
+          "y": -4
+        },
+        {
+          "x": -3,
+          "y": -17
+        },
+        {
+          "x": -1,
+          "y": -19
+        }
+      ]
+    },
+    "damage_per_second": 144,
+    "average_dps": 147,
+    "headshot_dps": 288,
+    "legshot_dps": 108,
+    "damage_per_magazine": 324
+  },
+  {
+    "name": "R-301",
+    "damage": 14,
+    "headshot_damage": 28,
+    "legshot_damage": 10.5,
+    "rate_of_fire": 720,
+    "ammo_capacity": 18,
+    "tactical_reload": 2.4,
+    "empty_reload": 3.2,
+    "ammo_type": "light",
+    "projectile_speed": 725,
+    "draw_time": 0.6,
+    "holster_time": 0.55,
+    "available_attachments": {
+      "barrel": [
+        "barrel_stabilizer",
+        "flash_hider"
+      ],
+      "magazine": [
+        "extended_light_mag"
+      ],
+      "optics": [
+        "2x_hcog_bruiser",
+        "1x_hcog_classic",
+        "1x_holo",
+        "1x-2x_variable_holo",
+        "2x-4x_variable_aog",
+        "3x_hcog_ranger"
+      ],
+      "stock": [
+        "standard_stock"
+      ],
+      "hop_up": [
+        "anvil_receiver"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_light_mag": {
+        "basic": {
+          "ammo_increase": "10%"
+        },
+        "rare": {
+          "ammo_increase": "40%"
+        },
+        "epic": {
+          "ammo_increase": "55%"
+        }
+      },
+      "anvil_receiver": {
+        "legendary": {
+          "damage_modifier": "150%"
+        }
+      }
+    },
+    "fire_modes": {
+      "single": true,
+      "auto": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 45,
+          "y": 125
+        }
+      ],
+      "follow": [
+        {
+          "x": 3,
+          "y": -11
+        },
+        {
+          "x": -5,
+          "y": -16
+        },
+        {
+          "x": 6,
+          "y": -12
+        },
+        {
+          "x": 1,
+          "y": -11
+        },
+        {
+          "x": 5,
+          "y": -16
+        },
+        {
+          "x": 0,
+          "y": -5
+        },
+        {
+          "x": 2,
+          "y": -7
+        },
+        {
+          "x": 2,
+          "y": -16
+        },
+        {
+          "x": 5,
+          "y": -4
+        },
+        {
+          "x": 4,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": -7
+        },
+        {
+          "x": 2,
+          "y": -2
+        },
+        {
+          "x": -5,
+          "y": -3
+        },
+        {
+          "x": -2,
+          "y": -3
+        },
+        {
+          "x": -8,
+          "y": -2
+        },
+        {
+          "x": -7,
+          "y": -1
+        }
+      ]
+    },
+    "damage_per_second": 168,
+    "average_dps": 168,
+    "headshot_dps": 336,
+    "legshot_dps": 126,
+    "damage_per_magazine": 252
+  },
+  {
+    "name": "Havoc",
+    "damage": 18,
+    "headshot_damage": 36,
+    "legshot_damage": 13.5,
+    "rate_of_fire": 672,
+    "ammo_capacity": 24,
+    "tactical_reload": 2.4,
+    "empty_reload": 3.2,
+    "ammo_type": "energy",
+    "projectile_speed": 763,
+    "draw_time": 0.5,
+    "holster_time": 0.55,
+    "available_attachments": {
+      "magazine": [
+        "extended_energy_mag"
+      ],
+      "optics": [
+        "2x_hcog_bruiser",
+        "1x_hcog_classic",
+        "1x_holo",
+        "1x-2x_variable_holo",
+        "2x-4x_variable_aog",
+        "3x_hcog_ranger"
+      ],
+      "hop_up": [
+        "selectfire_receiver",
+        "turbocharger"
+      ],
+      "stock": [
+        "standard_stock"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_energy_mag": {
+        "basic": {
+          "ammo_increase": "15%"
+        },
+        "rare": {
+          "ammo_increase": "35%"
+        },
+        "epic": {
+          "ammo_increase": "50%"
+        }
+      }
+    },
+    "fire_modes": {
+      "single": true,
+      "auto": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 45,
+          "y": 125
+        }
+      ],
+      "follow": [
+        {
+          "x": 3,
+          "y": -8
+        },
+        {
+          "x": -4,
+          "y": -8
+        },
+        {
+          "x": 2,
+          "y": -6
+        },
+        {
+          "x": -2,
+          "y": -6
+        },
+        {
+          "x": 2,
+          "y": -6
+        },
+        {
+          "x": 2,
+          "y": -6
+        },
+        {
+          "x": 2,
+          "y": -6
+        },
+        {
+          "x": 2,
+          "y": -6
+        },
+        {
+          "x": 0,
+          "y": -6
+        },
+        {
+          "x": -2,
+          "y": -6
+        },
+        {
+          "x": -2,
+          "y": -6
+        },
+        {
+          "x": -1,
+          "y": -6
+        },
+        {
+          "x": 0,
+          "y": -6
+        },
+        {
+          "x": 2,
+          "y": -7
+        },
+        {
+          "x": 2,
+          "y": -5
+        },
+        {
+          "x": 2,
+          "y": -4
+        },
+        {
+          "x": -2,
+          "y": -3
+        },
+        {
+          "x": -2,
+          "y": -3
+        },
+        {
+          "x": -2,
+          "y": -3
+        },
+        {
+          "x": -2,
+          "y": -2
+        },
+        {
+          "x": -1,
+          "y": -1
+        },
+        {
+          "x": 0,
+          "y": -1
+        },
+        {
+          "x": 0,
+          "y": -1
+        }
+      ]
+    },
+    "damage_per_second": 198,
+    "average_dps": 201,
+    "headshot_dps": 396,
+    "legshot_dps": 148,
+    "damage_per_magazine": 432
+  },
+  {
+    "name": "R-99",
+    "damage": 12,
+    "headshot_damage": 18,
+    "legshot_damage": 9.6,
+    "rate_of_fire": 1080,
+    "ammo_capacity": 18,
+    "tactical_reload": 1.8,
+    "empty_reload": 2.45,
+    "ammo_type": "light",
+    "projectile_speed": 525,
+    "draw_time": 0.35,
+    "holster_time": 0.3,
+    "available_attachments": {
+      "barrel": [
+        "barrel_stabilizer",
+        "flash_hider"
+      ],
+      "magazine": [
+        "extended_light_mag"
+      ],
+      "optics": [
+        "1x_hcog_classic",
+        "1x_holo",
+        "2x_hcog_bruiser",
+        "1x-2x_variable_holo",
+        "1x_digital_threat"
+      ],
+      "stock": [
+        "standard_stock"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_light_mag": {
+        "basic": {
+          "ammo_increase": "11%"
+        },
+        "rare": {
+          "ammo_increase": "27%"
+        },
+        "epic": {
+          "ammo_increase": "50%"
+        }
+      }
+    },
+    "fire_modes": {
+      "auto": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 50,
+          "y": 120
+        }
+      ],
+      "follow": [
+        {
+          "x": 5,
+          "y": -6
+        },
+        {
+          "x": 0,
+          "y": -6
+        },
+        {
+          "x": -5,
+          "y": -9
+        },
+        {
+          "x": 3,
+          "y": -4
+        },
+        {
+          "x": 3,
+          "y": -12
+        },
+        {
+          "x": 8,
+          "y": -6
+        },
+        {
+          "x": 4,
+          "y": -10
+        },
+        {
+          "x": 5,
+          "y": -7
+        },
+        {
+          "x": -3,
+          "y": -7
+        },
+        {
+          "x": -4,
+          "y": -5
+        },
+        {
+          "x": -3,
+          "y": -7
+        },
+        {
+          "x": -5,
+          "y": -5
+        },
+        {
+          "x": 2,
+          "y": -9
+        },
+        {
+          "x": 2,
+          "y": -3
+        },
+        {
+          "x": 6,
+          "y": -5
+        },
+        {
+          "x": 7,
+          "y": -2
+        }
+      ]
+    },
+    "damage_per_second": 216,
+    "average_dps": 216,
+    "headshot_dps": 216,
+    "legshot_dps": 172,
+    "damage_per_magazine": 216
+  },
+  {
+    "name": "Alternator",
+    "damage": 15,
+    "headshot_damage": 22.5,
+    "legshot_damage": 12,
+    "rate_of_fire": 640,
+    "ammo_capacity": 16,
+    "tactical_reload": 1.9,
+    "empty_reload": 2.23,
+    "ammo_type": "light",
+    "projectile_speed": 488,
+    "draw_time": 0.35,
+    "holster_time": 0.3,
+    "available_attachments": {
+      "barrel": [
+        "barrel_stabilizer",
+        "flash_hider"
+      ],
+      "magazine": [
+        "extended_light_mag"
+      ],
+      "optics": [
+        "1x_hcog_classic",
+        "1x_holo",
+        "2x_hcog_bruiser",
+        "1x-2x_variable_holo",
+        "1x_digital_threat"
+      ],
+      "stock": [
+        "standard_stock"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_light_mag": {
+        "rare": {
+          "ammo_increase": "45%"
+        },
+        "epic": {
+          "ammo_increase": "60%"
+        }
+      }
+    },
+    "fire_modes": {
+      "auto": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 50,
+          "y": 120
+        }
+      ],
+      "follow": [
+        {
+          "x": 1,
+          "y": -6
+        },
+        {
+          "x": 3,
+          "y": -4
+        },
+        {
+          "x": -1,
+          "y": -12
+        },
+        {
+          "x": 5,
+          "y": -5
+        },
+        {
+          "x": -7,
+          "y": -7
+        },
+        {
+          "x": 6,
+          "y": -7
+        },
+        {
+          "x": -4,
+          "y": -3
+        },
+        {
+          "x": 7,
+          "y": -5
+        },
+        {
+          "x": -3,
+          "y": -6
+        },
+        {
+          "x": 8,
+          "y": -7
+        },
+        {
+          "x": -5,
+          "y": -5
+        },
+        {
+          "x": 5,
+          "y": -4
+        },
+        {
+          "x": -4,
+          "y": -3
+        },
+        {
+          "x": 3,
+          "y": -3
+        },
+        {
+          "x": -7,
+          "y": -8
+        }
+      ]
+    },
+    "damage_per_second": 150,
+    "average_dps": 160,
+    "headshot_dps": 150,
+    "legshot_dps": 120,
+    "damage_per_magazine": 240
+  },
+  {
+    "name": "Prowler",
+    "damage": 14,
+    "headshot_damage": 21,
+    "legshot_damage": 11.2,
+    "rate_of_fire": 800,
+    "ammo_capacity": 20,
+    "tactical_reload": 2.0,
+    "empty_reload": 2.6,
+    "ammo_type": "heavy",
+    "projectile_speed": 450,
+    "draw_time": 0.35,
+    "holster_time": 0.3,
+    "available_attachments": {
+      "magazine": [
+        "extended_heavy_mag"
+      ],
+      "hop_up": [
+        "selectfire_receiver"
+      ],
+      "optics": [
+        "1x_hcog_classic",
+        "1x_holo",
+        "2x_hcog_bruiser",
+        "1x-2x_variable_holo",
+        "1x_digital_threat"
+      ],
+      "stock": [
+        "standard_stock"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_heavy_mag": {
+        "epic": {
+          "ammo_increase": "75%"
+        }
+      }
+    },
+    "fire_modes": {
+      "burst": 5,
+      "auto": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 50,
+          "y": 120
+        }
+      ],
+      "follow": [
+        {
+          "x": -3,
+          "y": -6
+        },
+        {
+          "x": -4,
+          "y": -16
+        },
+        {
+          "x": 4,
+          "y": -5
+        },
+        {
+          "x": 0,
+          "y": -9
+        },
+        {
+          "x": 3,
+          "y": -4
+        },
+        {
+          "x": 1,
+          "y": -7
+        },
+        {
+          "x": -3,
+          "y": -3
+        },
+        {
+          "x": -2,
+          "y": -2
+        },
+        {
+          "x": -5,
+          "y": -4
+        },
+        {
+          "x": -1,
+          "y": -5
+        },
+        {
+          "x": -2,
+          "y": -2
+        },
+        {
+          "x": 0,
+          "y": -2
+        },
+        {
+          "x": 2,
+          "y": -2
+        },
+        {
+          "x": 4,
+          "y": 3
+        },
+        {
+          "x": -5,
+          "y": -9
+        },
+        {
+          "x": 10,
+          "y": -5
+        },
+        {
+          "x": 2,
+          "y": -5
+        }
+      ]
+    },
+    "damage_per_second": 182,
+    "average_dps": 186,
+    "headshot_dps": 182,
+    "legshot_dps": 145,
+    "damage_per_magazine": 280
+  },
+  {
+    "name": "RE-45",
+    "damage": 11,
+    "headshot_damage": 16.5,
+    "legshot_damage": 9.9,
+    "rate_of_fire": 750,
+    "ammo_capacity": 16,
+    "tactical_reload": 1.74,
+    "empty_reload": 2.12,
+    "ammo_type": "light",
+    "projectile_speed": 488,
+    "draw_time": 0.35,
+    "holster_time": 0.3,
+    "available_attachments": {
+      "barrel": [
+        "barrel_stabilizer",
+        "flash_hider"
+      ],
+      "magazine": [
+        "extended_light_mag"
+      ],
+      "optics": [
+        "1x_hcog_classic",
+        "1x_holo",
+        "2x_hcog_bruiser",
+        "1x-2x_variable_holo",
+        "1x_digital_threat"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_light_mag": {
+        "basic": {
+          "ammo_increase": "20%"
+        },
+        "rare": {
+          "ammo_increase": "40%"
+        },
+        "epic": {
+          "ammo_increase": "55%"
+        }
+      }
+    },
+    "fire_modes": {
+      "auto": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 25,
+          "y": 100
+        }
+      ],
+      "follow": [
+        {
+          "x": 4,
+          "y": -6
+        },
+        {
+          "x": 4,
+          "y": -6
+        },
+        {
+          "x": 8,
+          "y": -6
+        },
+        {
+          "x": 4,
+          "y": -6
+        },
+        {
+          "x": 4,
+          "y": -6
+        },
+        {
+          "x": 3,
+          "y": -4
+        },
+        {
+          "x": 6,
+          "y": -5
+        },
+        {
+          "x": 5,
+          "y": -7
+        },
+        {
+          "x": 3,
+          "y": -1
+        },
+        {
+          "x": 4,
+          "y": -4
+        },
+        {
+          "x": 1,
+          "y": -5
+        },
+        {
+          "x": -2,
+          "y": -6
+        },
+        {
+          "x": 8,
+          "y": -2
+        },
+        {
+          "x": 3,
+          "y": -3
+        }
+      ]
+    },
+    "damage_per_second": 132,
+    "average_dps": 137,
+    "headshot_dps": 132,
+    "legshot_dps": 118,
+    "damage_per_magazine": 176
+  },
+  {
+    "name": "P2020",
+    "damage": 13,
+    "headshot_damage": 19.5,
+    "legshot_damage": 11.7,
+    "rate_of_fire": 430,
+    "ammo_capacity": 10,
+    "tactical_reload": 1.25,
+    "empty_reload": 1.25,
+    "ammo_type": "light",
+    "projectile_speed": 462,
+    "draw_time": 0.25,
+    "holster_time": 0.2,
+    "available_attachments": {
+      "barrel": [
+        "barrel_stabilizer",
+        "flash_hider"
+      ],
+      "magazine": [
+        "extended_light_mag"
+      ],
+      "optics": [
+        "1x_hcog_classic",
+        "1x_holo",
+        "2x_hcog_bruiser",
+        "1x-2x_variable_holo",
+        "1x_digital_threat"
+      ],
+      "hop_up": [
+        "hammerpoint_rounds"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_light_mag": {
+        "basic": {
+          "ammo_increase": "30%"
+        },
+        "rare": {
+          "ammo_increase": "50%"
+        },
+        "epic": {
+          "ammo_increase": "80%"
+        }
+      },
+      "hammerpoint_rounds": {
+        "epic": {
+          "damage_modifier": "161.5%"
+        }
+      }
+    },
+    "fire_modes": {
+      "single": true
+    },
+    "damage_per_second": 91,
+    "average_dps": 93,
+    "headshot_dps": 91,
+    "legshot_dps": 81,
+    "damage_per_magazine": 130
+  },
+  {
+    "name": "Wingman",
+    "damage": 45,
+    "headshot_damage": 94.5,
+    "legshot_damage": 40.5,
+    "rate_of_fire": 156,
+    "ammo_capacity": 4,
+    "tactical_reload": 2.1,
+    "empty_reload": 2.1,
+    "ammo_type": "heavy",
+    "projectile_speed": 450,
+    "draw_time": 0.45,
+    "holster_time": 0.4,
+    "available_attachments": {
+      "barrel": [
+        "barrel_stabilizer",
+        "flash_hider"
+      ],
+      "magazine": [
+        "extended_heavy_mag"
+      ],
+      "optics": [
+        "1x_hcog_classic",
+        "1x_holo",
+        "2x_hcog_bruiser",
+        "1x-2x_variable_holo",
+        "1x_digital_threat"
+      ]
+    },
+    "attachments_overwrite": {
+      "skullpiercer_rifling": {
+        "epic": {
+          "headshot_damage_modifier": "25%"
+        }
+      },
+      "extended_heavy_mag": {
+        "basic": {
+          "ammo_increase": "50%"
+        },
+        "rare": {
+          "ammo_increase": "100%"
+        },
+        "epic": {
+          "ammo_increase": "150%"
+        }
+      }
+    },
+    "fire_modes": {
+      "single": true
+    },
+    "damage_per_second": 90,
+    "average_dps": 117,
+    "headshot_dps": 180,
+    "legshot_dps": 81,
+    "damage_per_magazine": 180
+  },
+  {
+    "name": "Spitfire",
+    "damage": 18,
+    "headshot_damage": 40,
+    "legshot_damage": 15,
+    "rate_of_fire": 512,
+    "ammo_capacity": 35,
+    "tactical_reload": 2.8,
+    "empty_reload": 3.33,
+    "ammo_type": "heavy",
+    "projectile_speed": 688,
+    "draw_time": 0.7,
+    "holster_time": 0.65,
+    "available_attachments": {
+      "barrel": [
+        "barrel_stabilizer",
+        "flash_hider"
+      ],
+      "magezine": [
+        "extended_heavy_mag"
+      ],
+      "optics": [
+        "1x_hcog_classic",
+        "1x_holo",
+        "2x_hcog_bruiser",
+        "1x-2x_variable_holo",
+        "2x-4x_variable_aog",
+        "3x_hcog_ranger"
+      ],
+      "stock": [
+        "standard_stock"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_heavy_mag": {
+        "basic": {
+          "ammo_increase": "15%"
+        },
+        "rare": {
+          "ammo_increase": "28%"
+        },
+        "epic": {
+          "ammo_increase": "56%"
+        }
+      }
+    },
+    "fire_modes": {
+      "auto": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 85,
+          "y": 120
+        }
+      ],
+      "follow": [
+        {
+          "x": -5,
+          "y": -15
+        },
+        {
+          "x": -4,
+          "y": -5
+        },
+        {
+          "x": -8,
+          "y": -10
+        },
+        {
+          "x": -7,
+          "y": -6
+        },
+        {
+          "x": -5,
+          "y": -7
+        },
+        {
+          "x": 2,
+          "y": -7
+        },
+        {
+          "x": 3,
+          "y": -2
+        },
+        {
+          "x": 6,
+          "y": 1
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": -3
+        },
+        {
+          "x": 1,
+          "y": -6
+        },
+        {
+          "x": -5,
+          "y": -1
+        },
+        {
+          "x": -10,
+          "y": -2
+        },
+        {
+          "x": -2,
+          "y": -3
+        },
+        {
+          "x": -10,
+          "y": 2
+        },
+        {
+          "x": -5,
+          "y": 0
+        },
+        {
+          "x": -3,
+          "y": -6
+        },
+        {
+          "x": -4,
+          "y": -6
+        },
+        {
+          "x": -6,
+          "y": -5
+        },
+        {
+          "x": -8,
+          "y": -2
+        },
+        {
+          "x": -4,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": -4
+        },
+        {
+          "x": 4,
+          "y": -3
+        },
+        {
+          "x": 4,
+          "y": -3
+        },
+        {
+          "x": 4,
+          "y": -3
+        },
+        {
+          "x": 5,
+          "y": -3
+        },
+        {
+          "x": 4,
+          "y": -3
+        },
+        {
+          "x": -6,
+          "y": 0
+        },
+        {
+          "x": 5,
+          "y": -5
+        },
+        {
+          "x": 10,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 2
+        },
+        {
+          "x": 4,
+          "y": -2
+        },
+        {
+          "x": 2,
+          "y": -6
+        }
+      ]
+    },
+    "damage_per_second": 144,
+    "average_dps": 153,
+    "headshot_dps": 288,
+    "legshot_dps": 120,
+    "damage_per_magazine": 630
+  },
+  {
+    "name": "Devotion",
+    "damage": 17,
+    "headshot_damage": 34,
+    "legshot_damage": 12.75,
+    "rate_of_fire": 900,
+    "ammo_capacity": 36,
+    "tactical_reload": 2.8,
+    "empty_reload": 3.63,
+    "ammo_type": "energy",
+    "projectile_speed": 838,
+    "draw_time": 0.7,
+    "holster_time": 0.65,
+    "available_attachments": {
+      "barrel": [
+        "barrel_stabilizer",
+        "flash_hider"
+      ],
+      "magazine": [
+        "extended_energy_mag"
+      ],
+      "optics": [
+        "1x_hcog_classic",
+        "1x_holo",
+        "2x_hcog_bruiser",
+        "1x-2x_variable_holo",
+        "2x-4x_variable_aog",
+        "3x_hcog_ranger"
+      ],
+      "hop_up": [
+        "turbocharger"
+      ],
+      "stock": [
+        "standard_stock"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_energy_mag": {
+        "basic": {
+          "ammo_increase": "17%"
+        },
+        "rare": {
+          "ammo_increase": "32%"
+        },
+        "epic": {
+          "ammo_increase": "50%"
+        }
+      }
+    },
+    "fire_modes": {
+      "auto": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 75,
+          "y": 125
+        }
+      ],
+      "follow": [
+        {
+          "x": 4,
+          "y": -20
+        },
+        {
+          "x": 3,
+          "y": -13
+        },
+        {
+          "x": -3,
+          "y": -10
+        },
+        {
+          "x": -4,
+          "y": -7
+        },
+        {
+          "x": -5,
+          "y": -6
+        },
+        {
+          "x": -3,
+          "y": -8
+        },
+        {
+          "x": -8,
+          "y": -5
+        },
+        {
+          "x": -5,
+          "y": -5
+        },
+        {
+          "x": -3,
+          "y": -5
+        },
+        {
+          "x": -7,
+          "y": -7
+        },
+        {
+          "x": -4,
+          "y": -4
+        },
+        {
+          "x": -5,
+          "y": -1
+        },
+        {
+          "x": -5,
+          "y": -5
+        },
+        {
+          "x": -5,
+          "y": 0
+        },
+        {
+          "x": -3,
+          "y": 1
+        },
+        {
+          "x": -4,
+          "y": -2
+        },
+        {
+          "x": 4,
+          "y": -5
+        },
+        {
+          "x": 2,
+          "y": -4
+        },
+        {
+          "x": 6,
+          "y": -5
+        },
+        {
+          "x": 3,
+          "y": -2
+        },
+        {
+          "x": 3,
+          "y": -2
+        },
+        {
+          "x": 5,
+          "y": 0
+        },
+        {
+          "x": -4,
+          "y": -4
+        }
+      ]
+    },
+    "damage_per_second": 255,
+    "average_dps": 255,
+    "headshot_dps": 510,
+    "legshot_dps": 191,
+    "damage_per_magazine": 612
+  },
+  {
+    "name": "L-Star",
+    "damage": 19,
+    "headshot_damage": 42,
+    "legshot_damage": 15.75,
+    "rate_of_fire": 720,
+    "ammo_capacity": 60,
+    "tactical_reload": 3.26,
+    "empty_reload": 3.26,
+    "ammo_type": "unique",
+    "projectile_speed": 300,
+    "draw_time": 0.55,
+    "holster_time": 0.4,
+    "fire_modes": {
+      "auto": true
+    },
+    "damage_per_second": 228,
+    "average_dps": 228,
+    "headshot_dps": 456,
+    "legshot_dps": 189,
+    "damage_per_magazine": 1140
+  },
+  {
+    "name": "Mozambique",
+    "damage": 15,
+    "damage_modifier": 3,
+    "headshot_damage": 22.5,
+    "legshot_damage": 12,
+    "rate_of_fire": 180,
+    "ammo_capacity": 3,
+    "tactical_reload": 2.1,
+    "empty_reload": 2.6,
+    "ammo_type": "shotgun",
+    "projectile_speed": 250,
+    "draw_time": 0.45,
+    "holster_time": 0.4,
+    "available_attachments": {
+      "optics": [
+        "2x_hcog_bruiser",
+        "1x_hcog_classic",
+        "1x_holo",
+        "1x-2x_variable_holo",
+        "1x_digital_threat"
+      ],
+      "hop_up": [
+        "hammerpoint_rounds"
+      ],
+      "stock": [
+        "shotgun_bolt"
+      ]
+    },
+    "attachments_overwrite": {
+      "hammerpoint_rounds": {
+        "epic": {
+          "damage_modifier": "53.32%"
+        }
+      }
+    },
+    "fire_modes": {
+      "auto": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 30,
+          "y": 80
+        },
+        {
+          "x": 70,
+          "y": 80
+        },
+        {
+          "x": 50,
+          "y": 50
+        }
+      ]
+    },
+    "damage_per_second": 135,
+    "average_dps": 135,
+    "headshot_dps": 135,
+    "legshot_dps": 108,
+    "damage_per_magazine": 135
+  },
+  {
+    "name": "Peacekeeper",
+    "damage": 10,
+    "damage_modifier": 11,
+    "headshot_damage": 15,
+    "legshot_damage": 8,
+    "rate_of_fire": 58,
+    "ammo_capacity": 6,
+    "tactical_reload": 2.5,
+    "empty_reload": 3.5,
+    "ammo_type": "shotgun",
+    "projectile_speed": 400,
+    "draw_time": 0.45,
+    "holster_time": 0.4,
+    "available_attachments": {
+      "hop_up": [
+        "precision_choke"
+      ],
+      "optics": [
+        "2x_hcog_bruiser",
+        "1x_hcog_classic",
+        "1x_holo",
+        "1x-2x_variable_holo",
+        "1x_digital_threat"
+      ],
+      "stock": [
+        "shotgun_bolt"
+      ]
+    },
+    "attachments_overwrite": {
+      "shotgun_bolt": {
+        "basic": {
+          "rechamber_time": "-7.5%"
+        },
+        "rare": {
+          "rechamber_time": "-13%"
+        },
+        "epic": {
+          "rechamber_time": "-16%"
+        }
+      }
+    },
+    "fire_modes": {
+      "single": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 50,
+          "y": 70
+        },
+        {
+          "x": 58,
+          "y": 66
+        },
+        {
+          "x": 65,
+          "y": 62
+        },
+        {
+          "x": 50,
+          "y": 61
+        },
+        {
+          "x": 50,
+          "y": 52
+        },
+        {
+          "x": 42,
+          "y": 66
+        },
+        {
+          "x": 35,
+          "y": 62
+        },
+        {
+          "x": 44,
+          "y": 76
+        },
+        {
+          "x": 37,
+          "y": 82
+        },
+        {
+          "x": 56,
+          "y": 76
+        },
+        {
+          "x": 63,
+          "y": 82
+        }
+      ]
+    },
+    "damage_per_second": 110,
+    "average_dps": 99,
+    "headshot_dps": 110,
+    "legshot_dps": 88,
+    "damage_per_magazine": 660
+  },
+  {
+    "name": "EVA-8 Auto",
+    "damage": 7,
+    "damage_modifier": 9,
+    "headshot_damage": 10.5,
+    "legshot_damage": 5.6,
+    "rate_of_fire": 128,
+    "ammo_capacity": 8,
+    "tactical_reload": 2.75,
+    "empty_reload": 3.0,
+    "ammo_type": "shotgun",
+    "projectile_speed": 400,
+    "draw_time": 0.45,
+    "holster_time": 0.4,
+    "available_attachments": {
+      "optics": [
+        "2x_hcog_bruiser",
+        "1x_hcog_classic",
+        "1x_holo",
+        "1x-2x_variable_holo",
+        "1x_digital_threat"
+      ],
+      "stock": [
+        "shotgun_bolt"
+      ],
+      "hop_up": [
+        "double_tap_trigger"
+      ]
+    },
+    "fire_modes": {
+      "auto": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 50,
+          "y": 70
+        },
+        {
+          "x": 40,
+          "y": 70
+        },
+        {
+          "x": 60,
+          "y": 70
+        },
+        {
+          "x": 38,
+          "y": 60
+        },
+        {
+          "x": 62,
+          "y": 60
+        },
+        {
+          "x": 50,
+          "y": 52
+        },
+        {
+          "x": 38,
+          "y": 80
+        },
+        {
+          "x": 62,
+          "y": 80
+        },
+        {
+          "x": 50,
+          "y": 87
+        }
+      ]
+    },
+    "damage_per_second": 126,
+    "average_dps": 126,
+    "headshot_dps": 126,
+    "legshot_dps": 100,
+    "damage_per_magazine": 504
+  },
+  {
+    "name": "Mastiff",
+    "damage": 18,
+    "damage_modifier": 8,
+    "headshot_damage": 36,
+    "legshot_damage": 18,
+    "rate_of_fire": 96,
+    "ammo_capacity": 4,
+    "tactical_reload": 1.03,
+    "empty_reload": "n/a",
+    "ammo_type": "unique",
+    "projectile_speed": 300,
+    "draw_time": 0.8,
+    "holster_time": 0.4,
+    "fire_modes": {
+      "single": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 25,
+          "y": 70
+        },
+        {
+          "x": 40,
+          "y": 70
+        },
+        {
+          "x": 55,
+          "y": 70
+        },
+        {
+          "x": 70,
+          "y": 70
+        }
+      ]
+    },
+    "damage_per_second": 144,
+    "average_dps": 224,
+    "headshot_dps": 288,
+    "legshot_dps": 144,
+    "damage_per_magazine": 576
+  },
+  {
+    "name": "G7 Scout",
+    "damage": 34,
+    "headshot_damage": 60,
+    "legshot_damage": 27,
+    "rate_of_fire": 273,
+    "ammo_capacity": 10,
+    "tactical_reload": 2.4,
+    "empty_reload": 3.0,
+    "ammo_type": "light",
+    "projectile_speed": 788,
+    "draw_time": 0.9,
+    "holster_time": 0.6,
+    "available_attachments": {
+      "barrel": [
+        "barrel_stabilizer",
+        "flash_hider"
+      ],
+      "magazine": [
+        "extended_light_mag"
+      ],
+      "optics": [
+        "1x_hcog_classic",
+        "1x_holo",
+        "2x_hcog_bruiser",
+        "1x-2x_variable_holo",
+        "2x-4x_variable_aog",
+        "3x_hcog_ranger",
+        "6x_sniper",
+        "4x-8x_variable_sniper",
+        "4x-10x_digital_sniper_threat"
+      ],
+      "stock": [
+        "sniper_stock"
+      ],
+      "hop_up": [
+        "double_tap_trigger"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_light_mag": {
+        "basic": {
+          "ammo_increase": "50%"
+        },
+        "rare": {
+          "ammo_increase": "80%"
+        }
+      }
+    },
+    "fire_modes": {
+      "single": true
+    },
+    "damage_per_second": 136,
+    "average_dps": 154,
+    "headshot_dps": 136,
+    "legshot_dps": 108,
+    "damage_per_magazine": 340
+  },
+  {
+    "name": "Longbow",
+    "damage": 55,
+    "headshot_damage": 110,
+    "legshot_damage": 44,
+    "rate_of_fire": 78,
+    "ammo_capacity": 6,
+    "tactical_reload": 2.66,
+    "empty_reload": 3.66,
+    "ammo_type": "heavy",
+    "projectile_speed": 763,
+    "draw_time": 0.9,
+    "holster_time": 0.6,
+    "available_attachments": {
+      "barrel": [
+        "barrel_stabilizer",
+        "flash_hider"
+      ],
+      "magazine": [
+        "extended_heavy_mag"
+      ],
+      "optics": [
+        "1x_hcog_classic",
+        "1x_holo",
+        "2x_hcog_bruiser",
+        "1x-2x_variable_holo",
+        "2x-4x_variable_aog",
+        "3x_hcog_ranger",
+        "6x_sniper",
+        "4x-8x_variable_sniper",
+        "4x-10x_digital_sniper_threat"
+      ],
+      "stock": [
+        "sniper_stock"
+      ]
+    },
+    "fire_modes": {
+      "single": true
+    },
+    "damage_per_second": 55,
+    "average_dps": 71,
+    "headshot_dps": 110,
+    "legshot_dps": 44,
+    "damage_per_magazine": 330
+  },
+  {
+    "name": "Triple Take",
+    "damage": 23,
+    "damage_modifier": 3,
+    "headshot_damage": 46,
+    "legshot_damage": 21,
+    "rate_of_fire": 88,
+    "ammo_capacity": 5,
+    "tactical_reload": 2.6,
+    "empty_reload": 3.4,
+    "ammo_type": "energy",
+    "projectile_speed": 800,
+    "draw_time": 0.9,
+    "holster_time": 0.6,
+    "available_attachments": {
+      "magazine": [
+        "extended_energy_mag"
+      ],
+      "optics": [
+        "1x_hcog_classic",
+        "1x_holo",
+        "2x_hcog_bruiser",
+        "1x-2x_variable_holo",
+        "2x-4x_variable_aog",
+        "3x_hcog_ranger",
+        "6x_sniper",
+        "4x-8x_variable_sniper",
+        "4x-10x_digital_sniper_threat"
+      ],
+      "hop_up": [
+        "precision_choke"
+      ],
+      "stock": [
+        "sniper_stock"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_energy_mag": {
+        "basic": {
+          "ammo_increase": "20%"
+        },
+        "rare": {
+          "ammo_increase": "35%"
+        },
+        "epic": {
+          "ammo_increase": "50%"
+        }
+      }
+    },
+    "fire_modes": {
+      "single": true
+    },
+    "spray_pattern": {
+      "starter": [
+        {
+          "x": 35,
+          "y": 70
+        },
+        {
+          "x": 50,
+          "y": 70
+        },
+        {
+          "x": 65,
+          "y": 70
+        }
+      ]
+    },
+    "damage_per_second": 69,
+    "average_dps": 99,
+    "headshot_dps": 138,
+    "legshot_dps": 62,
+    "damage_per_magazine": 345
+  },
+  {
+    "name": "Kraber",
+    "damage": 145,
+    "headshot_damage": 297.25,
+    "legshot_damage": 110.2,
+    "rate_of_fire": 36,
+    "ammo_capacity": 4,
+    "tactical_reload": 3.2,
+    "empty_reload": 4.3,
+    "ammo_type": "unique",
+    "projectile_speed": 738,
+    "draw_time": 1.2,
+    "holster_time": 0.7,
+    "fire_modes": {
+      "single": true
+    },
+    "damage_per_second": 145,
+    "average_dps": 87,
+    "headshot_dps": 290,
+    "legshot_dps": 110,
+    "damage_per_magazine": 580
+  },
+  {
+    "name": "Charge Rifle",
+    "damage": 45,
+    "extra_damage": "Plus 15x3",
+    "rate_of_fire": 57,
+    "charge_time": 0.5,
+    "ammo_capacity": 4,
+    "headshot_damage": 56,
+    "legshot_damage": 45,
+    "ammo_type": "energy",
+    "projectile_speed": 800,
+    "tactical_reload": 3.6,
+    "empty_reload": 3.6,
+    "draw_time": 0.6,
+    "holster_time": 0.6,
+    "fire_modes": {
+      "single": true
+    },
+    "available_attachments": {
+      "optics": [
+        "1x_hcog_classic",
+        "1x_holo",
+        "2x_hcog_bruiser",
+        "1x-2x_variable_holo",
+        "2x-4x_variable_aog",
+        "3x_hcog_ranger",
+        "6x_sniper",
+        "4x-8x_variable_sniper",
+        "4x-10x_digital_sniper_threat"
+      ],
+      "stock": [
+        "sniper_stock"
+      ]
+    },
+    "attachments_overwrite": {
+      "extended_energy_mag": {
+        "basic": {
+          "ammo_increase": "25%"
+        },
+        "rare": {
+          "ammo_increase": "50%"
+        },
+        "epic": {
+          "ammo_increase": "70%"
+        }
+      }
+    },
+    "damage_per_second": 45,
+    "average_dps": 42,
+    "headshot_dps": 45,
+    "legshot_dps": 45,
+    "damage_per_magazine": 180
+  }
+]
